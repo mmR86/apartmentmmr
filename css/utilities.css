@@ -1,0 +1,37 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  width: 500px;
+  height: 250px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 25px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
+.number {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  width: 75px;
+  height: 75px;
+  border: var(--secondary-color) 2px solid;
+  background-color: var(--secondary-color);
+  border-radius: 12px 12px 12px 0;
+}
+
+.grid {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center;
+}
